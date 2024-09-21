@@ -1,0 +1,40 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+#calc {
+    text-align: center;
+    background-color: white;
+}
+
+#result {
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 500px;
+    height: 55px;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.rows {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    font-size: 25px;
+    background-color: red;
+    margin: 15px;
+    padding: 30px;
+    background-color: peru;
+}
+
+.box:hover {
+   background-color: black;
+   color: white; 
+}
